@@ -1,0 +1,68 @@
+.todoApp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(14, 16, 27);
+}
+
+.headingTodo{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgba(233, 227, 227, 0.884);
+    padding-bottom: 3vh;
+}
+
+.add_todos{
+    border: 2px solid rgb(30, 41, 39);
+    background-color: #fff;
+    padding: 3px;
+}
+
+.inputBox{
+    border: none;
+}
+.inputBox:focus{
+    outline: none;
+}
+
+.showItems{
+    margin-top: 1em;
+}
+
+.eachItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* text-align: left; */
+    background-color: rgb(62, 46, 211);
+    color: rgb(255, 255, 255);
+    padding: 0.2em 0.9em;
+    border-radius: 25px;
+    height: 1.8em;
+    margin: 10px;
+}
+
+.fa-plus:hover{
+    color: rgb(62, 165, 151);
+}
+
+.listItems{
+    padding-right: 0.5em;
+}
+
+.fa-trash:hover{
+    color: rgb(97, 6, 59);
+}
+
+.removeBtn{
+    text-transform: uppercase;
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 2em;
+}
+.removeBtn:hover{
+    cursor: pointer;
+}
